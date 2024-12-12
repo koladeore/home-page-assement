@@ -30,7 +30,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Second and Third Row (Combined) */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 max-w-6xl mx-auto px-6 md:px-16 p-8 text-white">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-16 max-w-6xl mx-auto px-6 md:px-16 p-8 text-white">
           <div>
             <h2 className="text-lg font-[400] mb-4">Hosting</h2>
             <ul className="space-y-4 text-sm font-[200]">

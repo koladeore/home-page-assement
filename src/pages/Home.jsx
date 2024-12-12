@@ -67,44 +67,46 @@ const Home = () => {
         <h3>with cloud flexibility and scalability.</h3>
       </div>
       {/* Cards Section */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 px-8">
-        {/* Card 1 */}
-        <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center bg-[#F9FAFC]">
-          <h3 className="md:text-2xl text-xl font-bold mb-4">24/7 Customers Support 🤳🏻</h3>
-          <p className="text-[#666D80]">
-            At Lyte Hosting, we pride ourselves on providing exceptional
-            customers service around the clock.
-          </p>
-        </div>
-        {/* Card 2 */}
-        <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
-          <h3 className="text-2xl font-bold mb-4">
-            100% Network Up-time Guarantee 📡
-          </h3>
-          <p className="text-[#666D80]">
-            Your business deserves the best!, and with our 100% network up time,
-            you can trust that your online presence is active.
-          </p>
-        </div>
-        {/* Card 3 */}
-        <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
-          <h3 className="text-2xl font-bold mb-4">
-            Daily Backup With One Click 🔄
-          </h3>
-          <p className="text-[#666D80]">
-            Our daily One Click Backup features ensure your website data is
-            secured and up to date with just a click.
-          </p>
-        </div>
-        {/* Card 4 */}
-        <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
-          <h3 className="text-2xl font-bold mb-4">
-            30 Days Money Back Guarantee 💰
-          </h3>
-          <p className="text-[#666D80]">
-            We believe in the quality and reliability of our services. That is
-            why we offer a 30 Days Money Back Guarantee.
-          </p>
+      <div className='flex items-center justify-center px-10'>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 w-full md:w-auto md:px-32">
+          {/* Card 1 */}
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center bg-[#F9FAFC]">
+            <h3 className="md:text-2xl text-xl font-bold mb-4">24/7 Customers Support 🤳🏻</h3>
+            <p className="text-[#666D80]">
+              At Lyte Hosting, we pride ourselves on providing exceptional
+              customers service around the clock.
+            </p>
+          </div>
+          {/* Card 2 */}
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
+            <h3 className="text-2xl font-bold mb-4">
+              100% Network Up-time Guarantee 📡
+            </h3>
+            <p className="text-[#666D80]">
+              Your business deserves the best!, and with our 100% network up time,
+              you can trust that your online presence is active.
+            </p>
+          </div>
+          {/* Card 3 */}
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
+            <h3 className="text-2xl font-bold mb-4">
+              Daily Backup With One Click 🔄
+            </h3>
+            <p className="text-[#666D80]">
+              Our daily One Click Backup features ensure your website data is
+              secured and up to date with just a click.
+            </p>
+          </div>
+          {/* Card 4 */}
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
+            <h3 className="text-2xl font-bold mb-4">
+              30 Days Money Back Guarantee 💰
+            </h3>
+            <p className="text-[#666D80]">
+              We believe in the quality and reliability of our services. That is
+              why we offer a 30 Days Money Back Guarantee.
+            </p>
+          </div>
         </div>
       </div>
       {/* Our pricing button */}
@@ -131,7 +133,7 @@ const Home = () => {
         </p>
       </div>
       {/* Change Currency Section */}
-      <div className="flex items-center md:justify-end justify-center mt-6">
+      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-32 mr-0">
         <button className="flex items-center border border-[#E0E2E6] rounded-full px-4 py-2 shadow-sm hover:bg-[#CB6686] hover:text-white transition duration-300">
           <span className="text-[#666D80] hover:text-white font-[700] text-md">
             Change Currency
@@ -154,157 +156,159 @@ const Home = () => {
         </button>
       </div>
       {/* Pricing Cards Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 px-16">
-        {/* Card 1 */}
-        <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
-          <h3 className="text-xl font-medium mb-2">Shared Hosting</h3>
-          <p className="text-sm text-[#666D80] mb-4">
-            Unbeatable speed. Shared hosting with top security. Low cost.
-          </p>
-          <p className="text-3xl font-bold text-[#161618] mt-8">
-            $0 <span className="text-lg ml-[-5px]">.72</span>
-          </p>
-          <p className="text-sm text-[#666D80]">per month</p>
-          <button className="bg-[#CB6686] text-white py-2 px-4 w-64 rounded-full mt-6 hover:bg-[#a04f6a] transition duration-300">
-            Order Now
-          </button>
-          <div className="mt-6">
-            <div className="flex mb-2">
-              <img
-                src="/images/disk-space.svg"
-                alt="disk-space"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80] ml-2">
-                {" "}
-                <span className="text-[#161618] mr-1">2gb</span>Disk Space
-              </p>
-            </div>
-            <div className="flex mb-2">
-              <img
-                src="/images/Bandwidth.svg"
-                alt="Bandwidth"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80] ml-2">
-                <span className="text-[#161618] mr-1">10gb</span>Data Bandwidth
-              </p>
-            </div>
-            <hr className="border-[#E0E2E6] mt-4" />
-            <p className="text-md font-semibold mt-4">Also Includes:</p>
-            <div className="flex mt-2 ml-[-4px]">
-              <img src="/images/check.svg" alt="check" className="w-5 h-5" />
-              <p className="text-sm text-[#666D80]">Unlimited Email Accounts</p>
-            </div>
-            <div className="flex mt-2 ml-[-6px]">
-              <img
-                src="/images/check.svg"
-                alt="check"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80]">Free SSL Security</p>
-            </div>
-          </div>
-        </div>
-        {/* Card 2 */}
-        <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
-          <h3 className="text-xl font-medium mb-2">Word-Press Hosting </h3>
-          <p className="text-sm text-[#666D80] mb-4">
-            Unbeatable speed. Word-Press hosting with top security. on budgets
-          </p>
-          <p className="text-3xl font-bold text-[#161618] mt-8">
-            $2 <span className="text-lg ml-[-5px]">.28</span>
-          </p>
-          <p className="text-sm text-[#666D80]">per month</p>
-          <button className="bg-[#CB6686] text-white py-2 px-4 w-64 rounded-full mt-6 hover:bg-[#a04f6a] transition duration-300">
-            Order Now
-          </button>
-          <div className="mt-6">
-            <div className="flex mb-2">
-              <img
-                src="/images/disk-space.svg"
-                alt="disk-space"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80] ml-2">
-                {" "}
-                <span className="text-[#161618] mr-1">10gb</span>Disk Space
-              </p>
-            </div>
-            <div className="flex mb-2">
-              <img
-                src="/images/Bandwidth.svg"
-                alt="Bandwidth"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80] ml-2">
-                <span className="text-[#161618] mr-1">100gb</span>Data Bandwidth
-              </p>
-            </div>
-            <hr className="border-[#E0E2E6] mt-4" />
-            <p className="text-md font-semibold mt-4">Also Includes:</p>
-            <div className="flex mt-2 ml-[-4px]">
-              <img src="/images/check.svg" alt="check" className="w-5 h-5" />
-              <p className="text-sm text-[#666D80]">Unlimited Email Accounts</p>
-            </div>
-            <div className="flex mt-2 ml-[-6px]">
-              <img
-                src="/images/check.svg"
-                alt="check"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80]">Free SSL Security</p>
+      <div className="flex justify-center items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
+          {/* Card 1 */}
+          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
+            <h3 className="text-xl font-medium mb-2">Shared Hosting</h3>
+            <p className="text-sm text-[#666D80] mb-4">
+              Unbeatable speed. Shared hosting with top security. Low cost.
+            </p>
+            <p className="text-3xl font-bold text-[#161618] mt-8">
+              $0 <span className="text-lg ml-[-5px]">.72</span>
+            </p>
+            <p className="text-sm text-[#666D80]">per month</p>
+            <button className="bg-[#CB6686] text-white py-2 px-4 w-64 rounded-full mt-6 hover:bg-[#a04f6a] transition duration-300">
+              Order Now
+            </button>
+            <div className="mt-6">
+              <div className="flex mb-2">
+                <img
+                  src="/images/disk-space.svg"
+                  alt="disk-space"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80] ml-2">
+                  {" "}
+                  <span className="text-[#161618] mr-1">2gb</span>Disk Space
+                </p>
+              </div>
+              <div className="flex mb-2">
+                <img
+                  src="/images/Bandwidth.svg"
+                  alt="Bandwidth"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80] ml-2">
+                  <span className="text-[#161618] mr-1">10gb</span>Data Bandwidth
+                </p>
+              </div>
+              <hr className="border-[#E0E2E6] mt-4" />
+              <p className="text-md font-semibold mt-4">Also Includes:</p>
+              <div className="flex mt-2 ml-[-4px]">
+                <img src="/images/check.svg" alt="check" className="w-5 h-5" />
+                <p className="text-sm text-[#666D80]">Unlimited Email Accounts</p>
+              </div>
+              <div className="flex mt-2 ml-[-6px]">
+                <img
+                  src="/images/check.svg"
+                  alt="check"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80]">Free SSL Security</p>
+              </div>
             </div>
           </div>
-        </div>
-        {/* Card 3 */}
-        <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
-          <h3 className="text-xl font-medium mb-2">VPS Hosting</h3>
-          <p className="text-sm text-[#666D80] mb-4">
-            High performance VPS Hosting with cloud flexibility and scalability.
-          </p>
-          <p className="text-3xl font-bold text-[#161618] mt-8">
-            $7 <span className="text-lg ml-[-5px]">.50</span>
-          </p>
-          <p className="text-sm text-[#666D80]">per month</p>
-          <button className="bg-[#CB6686] text-white py-2 px-4 w-64 rounded-full mt-6 hover:bg-[#a04f6a] transition duration-300">
-            Order Now
-          </button>
-          <div className="mt-6">
-            <div className="flex mb-2">
-              <img
-                src="/images/disk-space.svg"
-                alt="disk-space"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80] ml-2">
-                {" "}
-                <span className="text-[#161618] mr-1">40gb</span>Disk Space
-              </p>
+          {/* Card 2 */}
+          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
+            <h3 className="text-xl font-medium mb-2">Word-Press Hosting </h3>
+            <p className="text-sm text-[#666D80] mb-4">
+              Unbeatable speed. Word-Press hosting with top security. on budgets
+            </p>
+            <p className="text-3xl font-bold text-[#161618] mt-8">
+              $2 <span className="text-lg ml-[-5px]">.28</span>
+            </p>
+            <p className="text-sm text-[#666D80]">per month</p>
+            <button className="bg-[#CB6686] text-white py-2 px-4 w-64 rounded-full mt-6 hover:bg-[#a04f6a] transition duration-300">
+              Order Now
+            </button>
+            <div className="mt-6">
+              <div className="flex mb-2">
+                <img
+                  src="/images/disk-space.svg"
+                  alt="disk-space"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80] ml-2">
+                  {" "}
+                  <span className="text-[#161618] mr-1">10gb</span>Disk Space
+                </p>
+              </div>
+              <div className="flex mb-2">
+                <img
+                  src="/images/Bandwidth.svg"
+                  alt="Bandwidth"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80] ml-2">
+                  <span className="text-[#161618] mr-1">100gb</span>Data Bandwidth
+                </p>
+              </div>
+              <hr className="border-[#E0E2E6] mt-4" />
+              <p className="text-md font-semibold mt-4">Also Includes:</p>
+              <div className="flex mt-2 ml-[-4px]">
+                <img src="/images/check.svg" alt="check" className="w-5 h-5" />
+                <p className="text-sm text-[#666D80]">Unlimited Email Accounts</p>
+              </div>
+              <div className="flex mt-2 ml-[-6px]">
+                <img
+                  src="/images/check.svg"
+                  alt="check"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80]">Free SSL Security</p>
+              </div>
             </div>
-            <div className="flex mb-2">
-              <img
-                src="/images/Bandwidth.svg"
-                alt="Bandwidth"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80] ml-2">
-                <span className="text-[#161618] mr-1">20Tb</span>Data Bandwidth
-              </p>
-            </div>
-            <hr className="border-[#E0E2E6] mt-4" />
-            <p className="text-md font-semibold mt-4">Also Includes:</p>
-            <div className="flex mt-2 ml-[-4px]">
-              <img src="/images/check.svg" alt="check" className="w-5 h-5" />
-              <p className="text-sm text-[#666D80]">2gb of RAM</p>
-            </div>
-            <div className="flex mt-2 ml-[-6px]">
-              <img
-                src="/images/check.svg"
-                alt="check"
-                className="w-5 h-5 ml-1"
-              />
-              <p className="text-sm text-[#666D80]">4V CPU Core</p>
+          </div>
+          {/* Card 3 */}
+          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
+            <h3 className="text-xl font-medium mb-2">VPS Hosting</h3>
+            <p className="text-sm text-[#666D80] mb-4">
+              High performance VPS Hosting with cloud flexibility and scalability.
+            </p>
+            <p className="text-3xl font-bold text-[#161618] mt-8">
+              $7 <span className="text-lg ml-[-5px]">.50</span>
+            </p>
+            <p className="text-sm text-[#666D80]">per month</p>
+            <button className="bg-[#CB6686] text-white py-2 px-4 w-64 rounded-full mt-6 hover:bg-[#a04f6a] transition duration-300">
+              Order Now
+            </button>
+            <div className="mt-6">
+              <div className="flex mb-2">
+                <img
+                  src="/images/disk-space.svg"
+                  alt="disk-space"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80] ml-2">
+                  {" "}
+                  <span className="text-[#161618] mr-1">40gb</span>Disk Space
+                </p>
+              </div>
+              <div className="flex mb-2">
+                <img
+                  src="/images/Bandwidth.svg"
+                  alt="Bandwidth"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80] ml-2">
+                  <span className="text-[#161618] mr-1">20Tb</span>Data Bandwidth
+                </p>
+              </div>
+              <hr className="border-[#E0E2E6] mt-4" />
+              <p className="text-md font-semibold mt-4">Also Includes:</p>
+              <div className="flex mt-2 ml-[-4px]">
+                <img src="/images/check.svg" alt="check" className="w-5 h-5" />
+                <p className="text-sm text-[#666D80]">2gb of RAM</p>
+              </div>
+              <div className="flex mt-2 ml-[-6px]">
+                <img
+                  src="/images/check.svg"
+                  alt="check"
+                  className="w-5 h-5 ml-1"
+                />
+                <p className="text-sm text-[#666D80]">4V CPU Core</p>
+              </div>
             </div>
           </div>
         </div>
@@ -332,65 +336,67 @@ const Home = () => {
         </p>
       </div>
       {/* Border Section with Cards */}
-      <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 mx-4 md:mx-10 bg-white w-[1200px]">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {/* Card 1 */}
-          <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md w-[350px] h-[150px]">
-            <div className="flex mb-4 justify-between">
-              <h3 className="text-xl font-semibold mb-2 text-[#212325]">
-                Register New Domain
-              </h3>
-              <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
-                <img
-                  src="/images/arrowIcon.svg"
-                  alt="Register Icon"
-                  className="w-4 h-4"
-                />
+      <div className="flex items-center justify-center px-4">
+        <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 bg-white w-[1200px] flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+            {/* Card 1 */}
+            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
+              <div className="flex mb-4 justify-between">
+                <h3 className="text-xl font-semibold mb-2 text-[#212325]">
+                  Register New Domain
+                </h3>
+                <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
+                  <img
+                    src="/images/arrowIcon.svg"
+                    alt="Register Icon"
+                    className="w-4 h-4"
+                  />
+                </div>
               </div>
+              <p className="text-[#98989A] text-sm mt-[-8px]">
+                Own your online space! Register your domain name for a
+                professional website.
+              </p>
             </div>
-            <p className="text-[#98989A] text-sm mt-[-8px]">
-              Own your online space! Register your domain name for a
-              professional website.
-            </p>
-          </div>
 
-          {/* Card 2 */}
-          <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md w-[350px] h-[150px]">
-            <div className="flex mb-4 justify-between">
-              <h3 className="text-xl font-semibold mb-2 text-[#212325]">
-                Transfer Your Domain
-              </h3>
-              <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
-                <img
-                  src="/images/arrowIcon.svg"
-                  alt="Register Icon"
-                  className="w-4 h-4"
-                />
+            {/* Card 2 */}
+            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
+              <div className="flex mb-4 justify-between">
+                <h3 className="text-xl font-semibold mb-2 text-[#212325]">
+                  Transfer Your Domain
+                </h3>
+                <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
+                  <img
+                    src="/images/arrowIcon.svg"
+                    alt="Register Icon"
+                    className="w-4 h-4"
+                  />
+                </div>
               </div>
+              <p className="text-[#98989A] text-sm mt-[-8px]">
+                Upgrade Your Hosting, Extend Your Domain (Transfer Today!)
+              </p>
             </div>
-            <p className="text-[#98989A] text-sm mt-[-8px]">
-              Upgrade Your Hosting, Extend Your Domain (Transfer Today!)
-            </p>
-          </div>
 
-          {/* Card 3 */}
-          <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md w-[350px] h-[150px]">
-            <div className="flex mb-4 justify-between">
-              <h3 className="text-xl font-semibold mb-2 text-[#212325]">
-                Cloud Technology
-              </h3>
-              <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
-                <img
-                  src="/images/arrowIcon.svg"
-                  alt="Register Icon"
-                  className="w-4 h-4"
-                />
+            {/* Card 3 */}
+            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
+              <div className="flex mb-4 justify-between">
+                <h3 className="text-xl font-semibold mb-2 text-[#212325]">
+                  Cloud Technology
+                </h3>
+                <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
+                  <img
+                    src="/images/arrowIcon.svg"
+                    alt="Register Icon"
+                    className="w-4 h-4"
+                  />
+                </div>
               </div>
+              <p className="text-[#98989A] text-sm mt-[-8px]">
+                Our Cloud computing allows your applications to be shared through
+                our network over the Internet’s.
+              </p>
             </div>
-            <p className="text-[#98989A] text-sm mt-[-8px]">
-              Our Cloud computing allows your applications to be shared through
-              our network over the Internet’s.
-            </p>
           </div>
         </div>
       </div>
@@ -407,8 +413,8 @@ const Home = () => {
       <div className="bg-[url('/images/map.png')] bg-cover bg-center py-16 shadow-3xl">
         {/* Section Title */}
         <div className="text-center text-[#212325] mt-[-50px]">
-          <h2 className="text-4xl font-bold">What Our Clients Says?</h2>
-          <p className="text-medium mt-4 text-[#666D80]">
+          <h2 className="md:text-4xl text-2xl font-bold">What Our Clients Says?</h2>
+          <p className="md:text-medium text-sm mt-4 text-[#666D80]">
             1,000+ Customers Served. 3+ Years of Experience.
           </p>
         </div>
