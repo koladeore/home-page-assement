@@ -337,8 +337,8 @@ const Home = () => {
       </div>
       {/* Border Section with Cards */}
       <div className="flex items-center justify-center px-4">
-        <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 bg-white w-[1200px] flex items-center justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+        <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 bg-white md:w-[950px] w-[980px] flex items-center justify-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             {/* Card 1 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
               <div className="flex mb-4 justify-between">
