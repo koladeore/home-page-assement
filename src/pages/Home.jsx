@@ -43,13 +43,13 @@ const Home = () => {
       {/* Welcome Images */}
       <div className="flex items-center justify-center mt-6">
         <img
-          src="/images/WelcomeImage.png"
+          src="/images/WelcomeImages2.png"
           alt="welcomeImage"
-          className="md:w-[500px] w-[450px] md:h-[500px] h-[400px] object-cover" 
+          className="md:w-[700px] w-[450px] md:h-[700px] h-[400px] object-cover mr-4" 
         />
       </div>
       {/* About us button */}
-      <div className="flex items-center justify-center md:mt-[-220px] mt-[-180px] ml-10 cursor-pointer">
+      <div className="flex items-center justify-center md:mt-[-300px] mt-[-180px] ml-10 cursor-pointer">
         <div className="border border-[#E0E2E6] rounded-full w-[130px] p-1 shadow-sm flex items-center justify-center">
           <h1 className="text-[#666D80] ml-1 text-md font-[700]">About Us</h1>
           <div className="ml-1 text-xl mb-1">🕵</div>
@@ -62,7 +62,7 @@ const Home = () => {
         </h2>
       </div>
       {/* High Performance Servers text*/}
-      <div className="text-center mt-4 text-sm font-[400] text-[#191825BF]">
+      <div className="text-center mt-4 text-sm font-[400] text-gray-400">
         <h3 className="mb-2">We provide high performance dedicated servers</h3>
         <h3>with cloud flexibility and scalability.</h3>
       </div>
@@ -70,40 +70,40 @@ const Home = () => {
       <div className='flex items-center justify-center px-10'>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 w-full md:w-auto md:px-32">
           {/* Card 1 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center bg-[#F9FAFC]">
-            <h3 className="md:text-2xl text-xl font-bold mb-4">24/7 Customers Support 🤳🏻</h3>
-            <p className="text-[#666D80]">
-              At Lyte Hosting, we pride ourselves on providing exceptional
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-md text-md font-[500] mb-2">24/7 Customers Support 🤳🏻</h3>
+            <p className="text-gray-400 text-sm md:text-start text-center">
+              At Lyte Hosting, we pride ourselves on providing exceptional<br />
               customers service around the clock.
             </p>
           </div>
           {/* Card 2 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-2xl font-bold mb-4">
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-md text-md font-[500] mb-2">
               100% Network Up-time Guarantee 📡
             </h3>
-            <p className="text-[#666D80]">
-              Your business deserves the best!, and with our 100% network up time,
-              you can trust that your online presence is active.
+            <p className="text-gray-400 text-sm md:text-start text-center">
+              Your business deserves the best!, and with our 100% network<br />
+              up time, you can trust that your online presence is active.
             </p>
           </div>
           {/* Card 3 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-2xl font-bold mb-4">
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-md text-md font-[500] mb-2">
               Daily Backup With One Click 🔄
             </h3>
-            <p className="text-[#666D80]">
-              Our daily One Click Backup features ensure your website data is
-              secured and up to date with just a click.
+            <p className="text-gray-400 text-sm md:text-start text-center">
+              Our daily One Click Backup features ensure your website<br />
+              data is secured and up to date with just a click.
             </p>
           </div>
           {/* Card 4 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md text-center">
-            <h3 className="text-2xl font-bold mb-4">
+          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-md text-md font-[500] mb-2">
               30 Days Money Back Guarantee 💰
             </h3>
-            <p className="text-[#666D80]">
-              We believe in the quality and reliability of our services. That is
+            <p className="text-gray-400 text-sm md:text-start text-center">
+              We believe in the quality and reliability of our services. That is<br />
               why we offer a 30 Days Money Back Guarantee.
             </p>
           </div>
@@ -133,19 +133,19 @@ const Home = () => {
         </p>
       </div>
       {/* Change Currency Section */}
-      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-32 mr-0">
+      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-56 mr-0">
         <button className="flex items-center border border-[#E0E2E6] rounded-full px-4 py-2 shadow-sm hover:bg-[#CB6686] hover:text-white transition duration-300">
-          <span className="text-[#666D80] hover:text-white font-[700] text-md">
+          <span className="hover:text-white font-[400] text-sm">
             Change Currency
           </span>
-          <span className="ml-2 text-lg">💵</span>
+          <span className="ml-2 text-md">💵</span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className="w-4 h-4 ml-1"
+            className="w-3 h-3 ml-1"
           >
             <path
               strokeLinecap="round"
@@ -157,7 +157,7 @@ const Home = () => {
       </div>
       {/* Pricing Cards Section */}
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
           {/* Card 1 */}
           <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
             <h3 className="text-xl font-medium mb-2">Shared Hosting</h3>
@@ -419,7 +419,7 @@ const Home = () => {
           </p>
         </div>
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 px-6 md:px-64 items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 px-6 md:px-96 items-center justify-center">
           {/* Testimonial 1 */}
           <div className="flex flex-col items-center">
             <div className="flex gap-4">
@@ -616,7 +616,7 @@ const Home = () => {
       </div>
       {/* bottom card */}
       <div className="flex items-center justify-center relative">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-8 mt-0 px-6 md:px-16 mb-10 w-[1000px]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-0 mt-0 px-6 md:px-16 md:mb-32 mb-10 w-[1000px]">
           {/* Card 1 */}
           <div className="border rounded-2xl shadow-sm p-6 flex flex-col items-center text-center justify-center">
             {/* Icon */}
@@ -656,10 +656,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Newsletter Section */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-16 w-full max-w-[1000px] min-h-[130px] bg-[#CB6686] border-4 border-white text-white px-10 py-12 rounded-xl shadow-lg flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6 mt-14">
+      {/* Newsletter Section */} 
+      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-16 w-full max-w-[845px] md:max-h-[50px] max-h-[245px] bg-[#CB6686] border-4 border-white text-white flex flex-col md:flex-row items-center px-10 py-12 rounded-xl shadow-lg space-y-2 md:space-y-0 md:space-x-6 md:mt-2 mt-20">
         <div className="flex flex-col text-center md:text-left">
-          <h2 className="text-2xl font-bold">SIGN UP TO OUR NEWS LETTER</h2>
+          <h2 className="text-xl font-bold">SIGN UP TO OUR NEWS LETTER</h2>
           <p className="text-sm mt-1">
             Subscribe to our newsletter to receive news and updates
           </p>
@@ -669,7 +669,7 @@ const Home = () => {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="flex-grow p-3 text-black placeholder-gray-300 focus:outline-none w-[400px] text-sm"
+              className="flex-grow p-3 text-black placeholder-gray-300 focus:outline-none w-[300px] text-sm"
             />
             <button className="bg-black text-white flex items-center justify-center rounded-xl shadow-md hover:bg-gray-800 transition duration-300 ease-in-out mr-2">
               <img

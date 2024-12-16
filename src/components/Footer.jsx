@@ -2,7 +2,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaYoutube } from "re
 
 const Footer = () => {
   return (
-    <div className="bg-[#1E222F] py-10 md:mt-[70px] mt-[210px]">
+    <div className="bg-[#1E222F] py-10 md:mt-[0px] mt-[210px]">
       {/* First Row */}
       <div className="flex flex-wrap justify-between mb-12 p-10 md:p-20">
         <div>
