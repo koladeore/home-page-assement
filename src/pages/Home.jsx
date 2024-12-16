@@ -43,7 +43,7 @@ const Home = () => {
       {/* Welcome Images */}
       <div className="flex items-center justify-center mt-6">
         <img
-          src="/images/WelcomeImages2.png"
+          src="/images/WelcomeImage.png"
           alt="welcomeImage"
           className="md:w-[700px] w-[450px] md:h-[700px] h-[400px] object-cover mr-4" 
         />
@@ -338,18 +338,18 @@ const Home = () => {
       {/* Border Section with Cards */}
       <div className="flex items-center justify-center px-4">
         <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 bg-white md:w-[950px] w-[980px] flex items-center justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
             {/* Card 1 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-xl font-semibold mb-2 text-[#212325]">
+                <h3 className="text-md font-[600] mb-2 text-[#212325]">
                   Register New Domain
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full w-6 h-6 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-4 h-4"
+                    className="w-3 h-3"
                   />
                 </div>
               </div>
@@ -362,14 +362,14 @@ const Home = () => {
             {/* Card 2 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-xl font-semibold mb-2 text-[#212325]">
+                <h3 className="text-md font-[600] mb-2 text-[#212325]">
                   Transfer Your Domain
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full w-6 h-6 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-4 h-4"
+                    className="w-3 h-3"
                   />
                 </div>
               </div>
@@ -381,14 +381,14 @@ const Home = () => {
             {/* Card 3 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-xl font-semibold mb-2 text-[#212325]">
+                <h3 className="text-md font-[600] mb-2 text-[#212325]">
                   Cloud Technology
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-8 h-8 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full w-6 h-6 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-4 h-4"
+                    className="w-3 h-3"
                   />
                 </div>
               </div>

@@ -4,8 +4,8 @@ const Footer = () => {
   return (
     <div className="bg-[#1E222F] py-10 md:mt-[0px] mt-[210px]">
       {/* First Row */}
-      <div className="flex flex-wrap justify-between mb-12 p-10 md:p-20">
-        <div>
+      <div className="flex flex-wrap justify-between mb-12 p-10 md:p-20 md:mt-[-50px] mt-0">
+        <div className="">
           <h1 className="text-2xl font-bold text-[#CB6686] mt-6">Lyte-Hosting</h1>
           <p className="text-sm text-white mt-4 font-[100] leading-6">
             1942 BROADWAY STREET, BOULDER CO, US<br />
@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
 
       {/* Horizontal Line */}
-      <hr className="my-10 border-gray-300 w-full" />
+      <hr className="my-10 border-gray-300 w-full md:w-1/3 md:ml-20 ml-0" />
 
       {/* Final Rows */}
       <div className="text-sm text-white flex flex-col justify-between items-center md:flex-row md:items-center md:justify-between w-full px-20 mt-8">
