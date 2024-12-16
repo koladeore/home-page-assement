@@ -1,5 +1,5 @@
-import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -45,7 +45,7 @@ const Home = () => {
         <img
           src="/images/WelcomeImage.png"
           alt="welcomeImage"
-          className="md:w-[700px] w-[450px] md:h-[700px] h-[400px] object-cover mr-4" 
+          className="md:w-[700px] w-[450px] md:h-[700px] h-[400px] object-cover mr-4"
         />
       </div>
       {/* About us button */}
@@ -67,13 +67,16 @@ const Home = () => {
         <h3>with cloud flexibility and scalability.</h3>
       </div>
       {/* Cards Section */}
-      <div className='flex items-center justify-center px-10'>
+      <div className="flex items-center justify-center px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 w-full md:w-auto md:px-32">
           {/* Card 1 */}
           <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
-            <h3 className="md:text-md text-md font-[500] mb-2">24/7 Customers Support 🤳🏻</h3>
+            <h3 className="md:text-md text-md font-[500] mb-2">
+              24/7 Customers Support 🤳🏻
+            </h3>
             <p className="text-gray-400 text-sm md:text-start text-center">
-              At Lyte Hosting, we pride ourselves on providing exceptional<br />
+              At Lyte Hosting, we pride ourselves on providing exceptional
+              <br />
               customers service around the clock.
             </p>
           </div>
@@ -83,7 +86,8 @@ const Home = () => {
               100% Network Up-time Guarantee 📡
             </h3>
             <p className="text-gray-400 text-sm md:text-start text-center">
-              Your business deserves the best!, and with our 100% network<br />
+              Your business deserves the best!, and with our 100% network
+              <br />
               up time, you can trust that your online presence is active.
             </p>
           </div>
@@ -93,7 +97,8 @@ const Home = () => {
               Daily Backup With One Click 🔄
             </h3>
             <p className="text-gray-400 text-sm md:text-start text-center">
-              Our daily One Click Backup features ensure your website<br />
+              Our daily One Click Backup features ensure your website
+              <br />
               data is secured and up to date with just a click.
             </p>
           </div>
@@ -103,7 +108,8 @@ const Home = () => {
               30 Days Money Back Guarantee 💰
             </h3>
             <p className="text-gray-400 text-sm md:text-start text-center">
-              We believe in the quality and reliability of our services. That is<br />
+              We believe in the quality and reliability of our services. That is
+              <br />
               why we offer a 30 Days Money Back Guarantee.
             </p>
           </div>
@@ -190,14 +196,17 @@ const Home = () => {
                   className="w-5 h-5 ml-1"
                 />
                 <p className="text-sm text-[#666D80] ml-2">
-                  <span className="text-[#161618] mr-1">10gb</span>Data Bandwidth
+                  <span className="text-[#161618] mr-1">10gb</span>Data
+                  Bandwidth
                 </p>
               </div>
               <hr className="border-[#E0E2E6] mt-4" />
               <p className="text-md font-semibold mt-4">Also Includes:</p>
               <div className="flex mt-2 ml-[-4px]">
                 <img src="/images/check.svg" alt="check" className="w-5 h-5" />
-                <p className="text-sm text-[#666D80]">Unlimited Email Accounts</p>
+                <p className="text-sm text-[#666D80]">
+                  Unlimited Email Accounts
+                </p>
               </div>
               <div className="flex mt-2 ml-[-6px]">
                 <img
@@ -241,14 +250,17 @@ const Home = () => {
                   className="w-5 h-5 ml-1"
                 />
                 <p className="text-sm text-[#666D80] ml-2">
-                  <span className="text-[#161618] mr-1">100gb</span>Data Bandwidth
+                  <span className="text-[#161618] mr-1">100gb</span>Data
+                  Bandwidth
                 </p>
               </div>
               <hr className="border-[#E0E2E6] mt-4" />
               <p className="text-md font-semibold mt-4">Also Includes:</p>
               <div className="flex mt-2 ml-[-4px]">
                 <img src="/images/check.svg" alt="check" className="w-5 h-5" />
-                <p className="text-sm text-[#666D80]">Unlimited Email Accounts</p>
+                <p className="text-sm text-[#666D80]">
+                  Unlimited Email Accounts
+                </p>
               </div>
               <div className="flex mt-2 ml-[-6px]">
                 <img
@@ -264,7 +276,8 @@ const Home = () => {
           <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
             <h3 className="text-xl font-medium mb-2">VPS Hosting</h3>
             <p className="text-sm text-[#666D80] mb-4">
-              High performance VPS Hosting with cloud flexibility and scalability.
+              High performance VPS Hosting with cloud flexibility and
+              scalability.
             </p>
             <p className="text-3xl font-bold text-[#161618] mt-8">
               $7 <span className="text-lg ml-[-5px]">.50</span>
@@ -292,7 +305,8 @@ const Home = () => {
                   className="w-5 h-5 ml-1"
                 />
                 <p className="text-sm text-[#666D80] ml-2">
-                  <span className="text-[#161618] mr-1">20Tb</span>Data Bandwidth
+                  <span className="text-[#161618] mr-1">20Tb</span>Data
+                  Bandwidth
                 </p>
               </div>
               <hr className="border-[#E0E2E6] mt-4" />
@@ -338,7 +352,7 @@ const Home = () => {
       {/* Border Section with Cards */}
       <div className="flex items-center justify-center px-4">
         <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 bg-white md:w-[950px] w-[980px] flex items-center justify-center">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-2">
             {/* Card 1 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
               <div className="flex mb-4 justify-between">
@@ -393,8 +407,8 @@ const Home = () => {
                 </div>
               </div>
               <p className="text-[#98989A] text-sm mt-[-8px]">
-                Our Cloud computing allows your applications to be shared through
-                our network over the Internet’s.
+                Our Cloud computing allows your applications to be shared
+                through our network over the Internet’s.
               </p>
             </div>
           </div>
@@ -413,7 +427,9 @@ const Home = () => {
       <div className="bg-[url('/images/map.png')] bg-cover bg-center py-16 shadow-3xl">
         {/* Section Title */}
         <div className="text-center text-[#212325] mt-[-50px]">
-          <h2 className="md:text-4xl text-2xl font-bold">What Our Clients Says?</h2>
+          <h2 className="md:text-4xl text-2xl font-bold">
+            What Our Clients Says?
+          </h2>
           <p className="md:text-medium text-sm mt-4 text-[#666D80]">
             1,000+ Customers Served. 3+ Years of Experience.
           </p>
@@ -539,11 +555,14 @@ const Home = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-400 text-center">
-                  Trust worthy, one of the best reliable hosting company. Fast
-                  response time, with 24/7 no downtime. Good services. I must
-                  commend the company.
-                </p>
+                <div className="relative max-w-full text-center">
+                  <p className="text-gray-400">
+                    Trustworthy, one of the best reliable hosting company. Fast
+                    response time, with 24/7 no downtime. Good services. I must
+                    commend the company.
+                  </p>
+                  <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -582,11 +601,14 @@ const Home = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-400 text-center">
-                  These guys are excellent. Excellent in customer service. I
-                  have been using other host until i found them & they have been
-                  on top of their game.
-                </p>
+                <div className="relative max-w-full text-center">
+                  <p className="text-gray-400">
+                    These guys are excellent. Excellent in customer service. I
+                    have been using other host until i found them & they have been
+                    on top of their game.
+                  </p>
+                  <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -656,7 +678,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      {/* Newsletter Section */} 
+      {/* Newsletter Section */}
       <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-16 w-full max-w-[845px] md:max-h-[50px] max-h-[245px] bg-[#CB6686] border-4 border-white text-white flex flex-col md:flex-row items-center px-10 py-12 rounded-xl shadow-lg space-y-2 md:space-y-0 md:space-x-6 md:mt-2 mt-20">
         <div className="flex flex-col text-center md:text-left">
           <h2 className="text-xl font-bold">SIGN UP TO OUR NEWS LETTER</h2>
