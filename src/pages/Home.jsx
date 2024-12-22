@@ -441,7 +441,7 @@ const Home = () => {
         {/* Testimonials Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 mt-20 px-20 items-center justify-center w-[90%] mx-auto">
           {/* Testimonial 1 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mb-10">
             <div className="flex gap-4">
               {/* Profile Image */}
               <img
@@ -483,7 +483,7 @@ const Home = () => {
             </div>
           </div>
           {/* Testimonial 2 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mb-10">
             <div className="flex gap-4">
               {/* Profile Image */}
               <img
@@ -525,7 +525,7 @@ const Home = () => {
             </div>
           </div>
           {/* Testimonial 3 */}
-          <div className="flex flex-col items-center mt-20">
+          <div className="flex flex-col items-center">
             <div className="flex gap-4">
               {/* Profile Image */}
               <img
@@ -571,7 +571,7 @@ const Home = () => {
             </div>
           </div>
           {/* Testimonial 4 */}
-          <div className="flex flex-col items-center mt-20">
+          <div className="flex flex-col items-center">
             <div className="flex gap-4">
               {/* Profile Image */}
               <img
