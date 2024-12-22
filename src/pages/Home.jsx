@@ -48,7 +48,7 @@ const Home = () => {
         <img
           src="/images/WelcomeImage.png"
           alt="welcomeImage"
-          className="md:w-[800px] w-[450px] md:h-[800px] h-[400px] object-cover mr-4"
+          className="md:w-[800px] w-[450px] md:h-[800px] h-[400px] object-cover mr-4 md:mr-12"
         />
       </div>
       {/* About us button */}
