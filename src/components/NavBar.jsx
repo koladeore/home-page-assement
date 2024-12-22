@@ -39,19 +39,19 @@ const NavBar = () => {
       {/* Desktop Navigation */}
       <div className="hidden md:block">
         <div className="flex justify-center font-redhat mt-4">
-          <nav className="border border-[#E0E2E6] rounded-full shadow-sm items-center justify-center w-[740px] p-1">
-            <div className="container mx-auto flex items-center">
+          <nav className="border-2 border-[#E0E2E6] rounded-full shadow-sm items-center justify-center w-[80%] p-1">
+            <div className="container mx-auto flex  p-2 sm:justify-between">
               {/* Logo */}
               <img
                 src="/images/logo.svg"
                 alt="Logo"
                 className="w-10 h-10 ml-1"
               />
-              <ul className="hidden md:flex items-center space-x-6 text-[#121212] ml-16 font-[400] text-sm">
+              <ul className="hidden md:flex items-center gap-4 lg:gap-8 xl:gap-16 text-[#121212] font-[400] text-xs lg:text-lg">
                 <li className="hover:text-[#CB6686]">
                   <a href="#">Home</a>
                 </li>
-                <li className="flex items-center space-x-2 hover:text-[#CB6686]">
+                <li className="flex items-center hover:text-[#CB6686]">
                   <a href="#">Our Services</a>
                   <svg
                     className="w-4 h-4"
@@ -68,7 +68,7 @@ const NavBar = () => {
                     />
                   </svg>
                 </li>
-                <li className="flex items-center space-x-2 hover:text-[#CB6686]">
+                <li className="flex items-center hover:text-[#CB6686]">
                   <a href="#">Domains</a>
                   <svg
                     className="w-4 h-4"
@@ -85,7 +85,7 @@ const NavBar = () => {
                     />
                   </svg>
                 </li>
-                <li className="flex items-center space-x-2 hover:text-[#CB6686]">
+                <li className="flex items-center hover:text-[#CB6686]">
                   <a href="#">Pages</a>
                   <svg
                     className="w-4 h-4 cursor-pointer"
@@ -102,13 +102,18 @@ const NavBar = () => {
                     />
                   </svg>
                 </li>
+
+              </ul>
+              
+              <ul className="hidden md:flex items-center gap-4 lg:gap-10 text-[#121212] font-[400] text-sm">
+
                 <li>
-                  <button className="hover:bg-gray-700 px-4 py-2 rounded-full bg-[#1E222F] text-[#FFFFFF] text-sm ml-10">
+                  <button className="hover:bg-gray-700 px-4 py-2 rounded-full bg-[#1E222F] text-[#FFFFFF] text-lg ml-4 lg:ml-10">
                     Sign in
                   </button>
                 </li>
                 <li>
-                  <button className="bg-[#CB6686] text-[#FFFFFF] px-4 py-2 rounded-full">
+                  <button className="bg-[#CB6686] text-[#FFFFFF] text-lg px-4 py-2 rounded-full">
                     Get started
                   </button>
                 </li>

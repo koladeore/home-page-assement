@@ -5,23 +5,26 @@ const Home = () => {
   return (
     <div className="font-redhat">
       <NavBar />
-      {/* Welcome Section */}
-      <div className="flex items-center justify-center mt-8">
-        <div className="border border-[#E0E2E6] rounded-full w-[130px] p-1 shadow-sm flex items-center justify-center">
-          <h1 className="text-[#666D80] ml-1 text-md font-[700]">Welcome</h1>
-          <div className="ml-1 text-xl mb-1">👋</div>
+      <div className="w-[80%]  mx-auto">
+        {/* Welcome Section */}
+        <div className="flex items-center justify-center mt-8">
+          <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
+            <h1 className="text-gray-500 ml-1 text-2xl font-[700]">Welcome</h1>
+            <div className="text-2xl">👋</div>
+          </div>
+        </div>
+        {/* New Text Section */}
+        <div className="text-center mt-4 md:text-[100px] lead text-3xl font-extrabold text-[#000000]">
+          <p className=" md:leading-[90px]">
+            Welcome <span className="text-[#ffd300]">to</span>{" "}
+            <span className="text-[#CB6686]">Your New</span> <br/>
+            Digital Home!
+          </p>
         </div>
       </div>
-      {/* New Text Section */}
-      <div className="text-center mt-4 md:text-6xl text-3xl font-bold text-[#000000]">
-        <h2 className="">
-          Welcome <span className="text-[#ffd300]">to</span>{" "}
-          <span className="text-[#CB6686]">Your New</span>
-        </h2>
-        <h2 className="mt-2">Digital Home!</h2>
-      </div>
+
       {/* Additional Text Section */}
-      <div className="text-center mt-8 md:text-2xl text-sm font-[400] text-[#191825BF]">
+      <div className="text-center mt-8 lg:text-[30px] md:text-[25px] sm:text-2xl font-[400] text-[#191825BF]">
         <h3 className="mb-2">
           High performance dedicated servers. with cloud flexibility &
         </h3>
@@ -33,7 +36,7 @@ const Home = () => {
           <input
             type="text"
             placeholder="www.example.com"
-            className="border border-[#E0E2E6] rounded-full md:w-[400px] w-[350px] p-4 pl-6 text-md placeholder-[#B2B6B299]"
+            className="border border-[#E0E2E6] rounded-full md:w-[600px] w-[350px] p-4 pl-6 text-md placeholder-[#B2B6B299]"
           />
           <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-[#1E222F] text-white py-2 md:px-4 px-3 rounded-full hover:bg-[#a04f6a] transition duration-300">
             Search Domain
@@ -45,69 +48,69 @@ const Home = () => {
         <img
           src="/images/WelcomeImage.png"
           alt="welcomeImage"
-          className="md:w-[700px] w-[450px] md:h-[700px] h-[400px] object-cover mr-4"
+          className="md:w-[800px] w-[450px] md:h-[800px] h-[400px] object-cover mr-4"
         />
       </div>
       {/* About us button */}
-      <div className="flex items-center justify-center md:mt-[-300px] mt-[-180px] ml-10 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full w-[130px] p-1 shadow-sm flex items-center justify-center">
-          <h1 className="text-[#666D80] ml-1 text-md font-[700]">About Us</h1>
-          <div className="ml-1 text-xl mb-1">🕵</div>
+      <div className="flex items-center justify-center md:mt-[-350px] mt-[-180px] ml-12 cursor-pointer">
+        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
+          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">About Us</h1>
+          <div className="text-2xl">🕵</div>
         </div>
       </div>
       {/* Why Choose Lyte-Hosting text */}
-      <div className="text-center mt-2 md:text-4xl text-2xl font-semibold text-[#000000]">
+      <div className="text-center mt-4 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
           Why Choose Lyte-<span className="text-[#CB6686]">Hosting?</span>
         </h2>
       </div>
       {/* High Performance Servers text*/}
-      <div className="text-center mt-4 text-sm font-[400] text-gray-400">
-        <h3 className="mb-2">We provide high performance dedicated servers</h3>
-        <h3>with cloud flexibility and scalability.</h3>
+      <div className="text-center mt-6 text-[20px] font-[400] text-gray-400">
+        <h3 className="">We provide high performance dedicated servers with cloud</h3>
+        <h3>flexibility and scalability.</h3>
       </div>
       {/* Cards Section */}
-      <div className="flex items-center justify-center px-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8 w-full md:w-auto md:px-32">
+      <div className="flex items-center justify-center w-[80%] mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 w-full ">
           {/* Card 1 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
-            <h3 className="md:text-md text-md font-[500] mb-2">
+          <div className="border border-[#E0E2E6] p-8  rounded-lg md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-[25px] text-md font-semibold mb-2">
               24/7 Customers Support 🤳🏻
             </h3>
-            <p className="text-gray-400 text-sm md:text-start text-center">
+            <p className="text-gray-400 text-[15px] md:text-start text-center">
               At Lyte Hosting, we pride ourselves on providing exceptional
               <br />
               customers service around the clock.
             </p>
           </div>
           {/* Card 2 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
-            <h3 className="md:text-md text-md font-[500] mb-2">
+          <div className="border border-[#E0E2E6] p-8  rounded-lg md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-[25px] text-md font-semibold mb-2">
               100% Network Up-time Guarantee 📡
             </h3>
-            <p className="text-gray-400 text-sm md:text-start text-center">
+            <p className="text-gray-400 text-[15px] md:text-start text-center">
               Your business deserves the best!, and with our 100% network
               <br />
               up time, you can trust that your online presence is active.
             </p>
           </div>
           {/* Card 3 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
-            <h3 className="md:text-md text-md font-[500] mb-2">
+          <div className="border border-[#E0E2E6] p-8  rounded-lg md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-[25px] text-md font-semibold mb-2">
               Daily Backup With One Click 🔄
             </h3>
-            <p className="text-gray-400 text-sm md:text-start text-center">
+            <p className="text-gray-400 text-[15px] md:text-start text-center">
               Our daily One Click Backup features ensure your website
               <br />
               data is secured and up to date with just a click.
             </p>
           </div>
           {/* Card 4 */}
-          <div className="border border-[#E0E2E6] p-6 rounded-lg shadow-md md:text-start text-center bg-[#F9FAFC]">
-            <h3 className="md:text-md text-md font-[500] mb-2">
+          <div className="border border-[#E0E2E6] p-8  rounded-lg md:text-start text-center bg-[#F9FAFC]">
+            <h3 className="md:text-[25px] text-md font-semibold mb-2">
               30 Days Money Back Guarantee 💰
             </h3>
-            <p className="text-gray-400 text-sm md:text-start text-center">
+            <p className="text-gray-400 text-[15px] md:text-start text-center">
               We believe in the quality and reliability of our services. That is
               <br />
               why we offer a 30 Days Money Back Guarantee.
@@ -117,29 +120,29 @@ const Home = () => {
       </div>
       {/* Our pricing button */}
       <div className="flex items-center justify-center mt-10 md:ml-10 ml-0 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full w-[130px] p-1 shadow-sm flex items-center justify-center">
-          <h1 className="text-[#666D80] ml-1 text-md font-[700]">
+        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
+          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">
             Our Pricing
           </h1>
-          <div className="ml-1 text-xl mb-1">💰</div>
+          <div className="text-2xl">💰</div>
         </div>
       </div>
       {/* Pricing Section Title */}
-      <div className="text-center mt-2 md:text-4xl text-2xl font-semibold text-[#000000]">
+      <div className="text-center mt-6 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
           Our Web <span className="text-[#CB6686]">Hosting </span> Plans &
           Pricing
         </h2>
       </div>
       {/* Additional Pricing Text */}
-      <div className="text-center mt-4 md:text-md text-[14px] font-medium text-[#666D80]">
+      <div className="text-center mt-6 md:text-md text-[20px] font-medium text-gray-400">
         <p>
           Make the most out of your hosting plans, all for a price that fits
           your budget.
         </p>
       </div>
       {/* Change Currency Section */}
-      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-56 mr-0">
+      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-[120px] mr-0">
         <button className="flex items-center border border-[#E0E2E6] rounded-full px-4 py-2 shadow-sm hover:bg-[#CB6686] hover:text-white transition duration-300">
           <span className="hover:text-white font-[400] text-sm">
             Change Currency
@@ -328,86 +331,87 @@ const Home = () => {
         </div>
       </div>
       {/* Our features button */}
-      <div className="flex items-center justify-center mt-10 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full w-[150px] p-1 shadow-sm flex items-center justify-center">
-          <h1 className="text-[#666D80] ml-1 text-md font-[700]">
+      <div className="flex items-center justify-center mt-8 cursor-pointer">
+        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
+          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">
             Our Features
           </h1>
-          <div className="ml-1 text-xl mb-1">🧑🏻‍💻</div>
+          <div className="text-2xl">🧑🏻‍💻</div>
         </div>
       </div>
       {/* Pricing Section Title */}
-      <div className="text-center mt-4 md:mt-2 md:text-4xl text-2xl font-semibold text-[#000000]">
+      <div className="text-center mt-4 md:mt-6 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
           Our Premium <span className="text-[#CB6686]">Hosting </span> Features
         </h2>
       </div>
       {/* Additional Pricing Text */}
-      <div className="text-center mt-4 md:text-md text-[14px] font-medium text-[#666D80]">
+      <div className="text-center mt-6 md:text-[20px] text-[14px] font-medium text-[#666D80]">
         <p>
           Make the most out of your hosting plans, all for a price that fits
           your budget.
         </p>
       </div>
       {/* Border Section with Cards */}
-      <div className="flex items-center justify-center px-4">
-        <div className="border border-[#E0E2E6] rounded-lg shadow-md p-4 mt-6 bg-white md:w-[950px] w-[980px] flex items-center justify-center">
+      {/* w-[85%] mx-auto justify-center */}
+      <div className="flex w-[95%] mx-auto justify-center">
+        <div className="border border-[#E0E2E6] rounded-lg p-4 mt-6 bg-white flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-2">
             {/* Card 1 */}
-            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
+            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-md font-[600] mb-2 text-[#212325]">
+                <h3 className="text-[25px] font-[600] mb-2 text-[#212325]">
                   Register New Domain
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-6 h-6 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full w-12 h-12 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-3 h-3"
+                    className="w-6 h-6"
                   />
                 </div>
               </div>
-              <p className="text-[#98989A] text-sm mt-[-8px]">
+              <p className="text-[#98989A] text-[20px] mt-[-8px]">
                 Own your online space! Register your domain name for a
                 professional website.
               </p>
             </div>
 
             {/* Card 2 */}
-            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
+            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-md font-[600] mb-2 text-[#212325]">
+                <h3 className="text-[25px] font-[600] mb-2 text-[#212325]">
                   Transfer Your Domain
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-6 h-6 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full w-12 h-12 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-3 h-3"
+                    className="w-6 h-6"
                   />
                 </div>
               </div>
-              <p className="text-[#98989A] text-sm mt-[-8px]">
-                Upgrade Your Hosting, Extend Your Domain (Transfer Today!)
+              <p className="text-[#98989A] lg:text-[19px] mt-[-8px]">
+                Upgrade Your Hosting, Extend Your Domain (Transfer<br /> Today!)
               </p>
             </div>
 
             {/* Card 3 */}
-            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg shadow-md md:[350px] w-[300px] h-[150px]">
+            <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-md font-[600] mb-2 text-[#212325]">
+                <h3 className="text-[25px] font-[600] mb-2 text-[#212325]">
                   Cloud Technology
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-6 h-6 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full w-12 h-12 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-3 h-3"
+                    className="w-6 h-6"
                   />
                 </div>
               </div>
-              <p className="text-[#98989A] text-sm mt-[-8px]">
-                Our Cloud computing allows your applications to be shared
+              <p className="text-[#98989A] text-[19px] mt-[-8px]">
+                Our Cloud computing allows your applications to be<br />shared
                 through our network over the Internet’s.
               </p>
             </div>
@@ -415,27 +419,27 @@ const Home = () => {
         </div>
       </div>
       {/* Our Reviews button */}
-      <div className="flex items-center justify-center mt-16 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full w-[150px] p-1 shadow-sm flex items-center justify-center">
-          <h1 className="text-[#666D80] ml-1 text-md font-[700]">
+      <div className="flex items-center justify-center mt-8 cursor-pointer">
+        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
+          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">
             Our Reviews
           </h1>
-          <div className="ml-1 text-xl mb-1">⭐</div>
+          <div className="text-2xl">⭐</div>
         </div>
       </div>
       {/* Client Testimonials Section */}
-      <div className="bg-[url('/images/map.png')] bg-cover bg-center py-16 shadow-3xl">
+      <div className="bg-[url('/images/map.png')] bg-contain bg-center py-16 shadow-3xl">
         {/* Section Title */}
         <div className="text-center text-[#212325] mt-[-50px]">
-          <h2 className="md:text-4xl text-2xl font-bold">
+          <h2 className="md:text-[50px] text-2xl font-bold">
             What Our Clients Says?
           </h2>
-          <p className="md:text-medium text-sm mt-4 text-[#666D80]">
+          <p className="md:text-[18px] text-sm mt-4 text-[#666D80]">
             1,000+ Customers Served. 3+ Years of Experience.
           </p>
         </div>
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 px-6 md:px-96 items-center justify-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 mt-20 px-20 items-center justify-center w-[90%] mx-auto">
           {/* Testimonial 1 */}
           <div className="flex flex-col items-center">
             <div className="flex gap-4">
@@ -443,13 +447,13 @@ const Home = () => {
               <img
                 src="/images/profile-one.svg"
                 alt="profile-one"
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-32 h-32 rounded-full object-cover"
               />
-              <div className="flex-col">
-                <h3 className="text-lg font-semibold text-gray-400">
+              <div className="flex-col mt-3">
+                <h3 className="text-[25px] font-semibold text-gray-400">
                   Abdulazeez Mubarak
                 </h3>
-                <div className="flex items-center text-sm text-[#666666] mt-1">
+                <div className="flex items-center text-[20px] text-[#666666] mt-1">
                   📍Lagos State, Nigeria
                 </div>
               </div>
@@ -457,8 +461,8 @@ const Home = () => {
             {/* Content */}
             <div>
               {/* Comment Card */}
-              <div className="bg-[#F9FAFC] rounded-lg shadow-md mt-4 p-6 w-[250px] relative">
-                <div className="bg-[#F9FAFC] flex items-center justify-center gap-2 mb-2 text-yellow-500 absolute left-1/2 transform -translate-x-1/2 -top-3 p-2">
+              <div className="bg-[#F9FAFC] rounded-lg mt-4 p-6 relative">
+                <div className="bg-[#F9FAFC] flex items-center justify-center gap-2 mb-2 text-yellow-500 absolute left-1/2 transform -translate-x-1/2 -top-3 p-2 rounded-full">
                   {[...Array(5)].map((_, i) => (
                     <svg
                       key={i}
@@ -471,8 +475,8 @@ const Home = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-400 text-center">
-                  Their hosting is very affordable and their customer service is
+                <p className="text-gray-400 text-center text-[25px] p-2">
+                  Their hosting is very <br /> affordable and their customer <br /> service is
                   the best.
                 </p>
               </div>
@@ -485,13 +489,13 @@ const Home = () => {
               <img
                 src="/images/profile-two.svg"
                 alt="profile-two"
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-32 h-32 rounded-full object-cover"
               />
-              <div className="flex-col">
-                <h3 className="text-lg font-semibold text-gray-400">
+              <div className="flex-col mt-3">
+                <h3 className="text-[25px] font-semibold text-gray-400">
                   Sayles Russell
                 </h3>
-                <div className="flex items-center text-sm text-[#666666] mt-1">
+                <div className="flex items-center text-[20px] text-[#666666]  mt-1">
                   📍United State
                 </div>
               </div>
@@ -499,7 +503,7 @@ const Home = () => {
             {/* Content */}
             <div>
               {/* Comment Card */}
-              <div className="bg-[#F9FAFC] rounded-lg shadow-md mt-4 p-6 w-[260px] relative">
+              <div className="bg-[#F9FAFC] rounded-lg p-6 mt-4 relative">
                 <div className="bg-[#F9FAFC] flex items-center justify-center gap-2 mb-2 text-yellow-500 absolute left-1/2 transform -translate-x-1/2 -top-3 p-2">
                   {[...Array(5)].map((_, i) => (
                     <svg
@@ -513,27 +517,27 @@ const Home = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-400 text-center">
-                  I recently started using Lytehosting and so far, my experience
+                <p className="text-gray-400 text-center text-[25px] p-2">
+                  I recently started using <br /> Lytehosting and so far, my <br />experience
                   has been positive
                 </p>
               </div>
             </div>
           </div>
           {/* Testimonial 3 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-20">
             <div className="flex gap-4">
               {/* Profile Image */}
               <img
                 src="/images/profile-three.svg"
                 alt="profile-three"
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-32 h-32 rounded-full object-cover"
               />
-              <div className="flex-col">
-                <h3 className="text-lg font-semibold text-gray-400">
+              <div className="flex-col mt-3">
+                <h3 className="text-[25px] font-semibold text-gray-400">
                   Code Naija Hub
                 </h3>
-                <div className="flex items-center text-sm text-[#666666] mt-1">
+                <div className="flex items-center text-[20px] text-[#666666] mt-1">
                   📍FCT, Abuja, Nigeria
                 </div>
               </div>
@@ -541,7 +545,7 @@ const Home = () => {
             {/* Content */}
             <div>
               {/* Comment Card */}
-              <div className="bg-[#F9FAFC] rounded-lg shadow-md mt-4 p-6 w-[260px] relative">
+              <div className="bg-[#F9FAFC] rounded-lg mt-4 p-6 relative">
                 <div className="bg-[#F9FAFC] flex items-center justify-center gap-2 mb-2 text-yellow-500 absolute left-1/2 transform -translate-x-1/2 -top-3 p-2">
                   {[...Array(5)].map((_, i) => (
                     <svg
@@ -556,9 +560,9 @@ const Home = () => {
                   ))}
                 </div>
                 <div className="relative max-w-full text-center">
-                  <p className="text-gray-400">
-                    Trustworthy, one of the best reliable hosting company. Fast
-                    response time, with 24/7 no downtime. Good services. I must
+                  <p className="text-gray-400 text-center text-[25px] p-2">
+                    Trustworthy, one of the best <br /> reliable hosting company. Fast <br />
+                    response time, with 24/7 no <br /> downtime. Good services. <br />I must
                     commend the company.
                   </p>
                   <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
@@ -567,19 +571,19 @@ const Home = () => {
             </div>
           </div>
           {/* Testimonial 4 */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mt-20">
             <div className="flex gap-4">
               {/* Profile Image */}
               <img
                 src="/images/profile-four.svg"
                 alt="profile-four"
-                className="w-16 h-16 rounded-full object-cover"
+                className="w-32 h-32 rounded-full object-cover"
               />
               <div className="flex-col">
-                <h3 className="text-lg font-semibold text-gray-400">
+                <h3 className="text-[25px] font-semibold text-gray-400">
                   Victor Edet
                 </h3>
-                <div className="flex items-center text-sm text-[#666666] mt-1">
+                <div className="flex items-center text-[20px] text-[#666666] mt-1">
                   📍Jos State, Nigeria
                 </div>
               </div>
@@ -587,7 +591,7 @@ const Home = () => {
             {/* Content */}
             <div>
               {/* Comment Card */}
-              <div className="bg-[#F9FAFC] rounded-lg shadow-md mt-4 p-6 w-[260px] relative">
+              <div className="bg-[#F9FAFC] rounded-lg mt-4 p-6 relative">
                 <div className="bg-[#F9FAFC] flex items-center justify-center gap-2 mb-2 text-yellow-500 absolute left-1/2 transform -translate-x-1/2 -top-3 p-2">
                   {[...Array(5)].map((_, i) => (
                     <svg
@@ -602,9 +606,9 @@ const Home = () => {
                   ))}
                 </div>
                 <div className="relative max-w-full text-center">
-                  <p className="text-gray-400">
-                    These guys are excellent. Excellent in customer service. I
-                    have been using other host until i found them & they have been
+                  <p className="text-gray-400 text-center text-[25px] p-2">
+                    These guys are excellent.<br /> Excellent in customer service. I<br />
+                    have been using other host<br /> until i found them & they have <br /> been
                     on top of their game.
                   </p>
                   <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
@@ -613,34 +617,33 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* see others review button */}
         <div className="flex items-center justify-center mt-4 cursor-pointer">
-          <div className="border border-[#E0E2E6] rounded-full w-[250px] p-2 shadow-sm flex items-center justify-center">
-            <h1 className="text-[#666D80] ml-1 text-sm font-[700]">
+          <div className="border border-[#E0E2E6] rounded-3xl p-4 flex mx-auto justify-center">
+            <h1 className="text-[#666D80] ml-1 text-2xl font-[700]">
               See other customers reviews
             </h1>
-            <div className="ml-1 mt-0.5">
+            <div className="mt-3">
               <img
                 src="/images/arrow-right.svg"
                 alt="arrow-right"
-                className="h-2 w-2"
+                className="h-3 w-3 ml-3"
               />
             </div>
-            <div className="ml-[-3px] mt-0.5">
+            <div className="mt-3">
               <img
                 src="/images/arrow-right-sec.svg"
                 alt="arrow-right"
-                className="h-2 w-2"
+                className="h-3 w-3"
               />
             </div>
           </div>
         </div>
       </div>
       {/* bottom card */}
-      <div className="flex items-center justify-center relative">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-0 mt-0 px-6 md:px-16 md:mb-32 mb-10 w-[1000px]">
+      <div className="flex w-[95%] mx-auto justify-center relative ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-0 mt-0 px-6 md:px-1 md:mb-32 mb-10">
           {/* Card 1 */}
-          <div className="border rounded-2xl shadow-sm p-6 flex flex-col items-center text-center justify-center">
+          <div className="border rounded-2xl shadow-sm p-12 flex flex-col items-center text-center justify-center">
             {/* Icon */}
             <img
               src="/images/message.svg"
@@ -648,23 +651,23 @@ const Home = () => {
               className="h-12 w-12"
             />
             {/* Title */}
-            <p className="text-md font-[500] text-gray-600 mt-4">
+            <p className="text-[20px] font-[500] text-gray-600 mt-4">
               Live Chat & Support Solution
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="border rounded-2xl shadow-sm p-6 flex flex-col items-center text-center justify-center">
+          <div className="border rounded-2xl shadow-sm p-12 flex flex-col items-center text-center justify-center">
             {/* Icon */}
             <img src="/images/mail.svg" alt="mail.svg" className="h-12 w-12" />
             {/* Title */}
-            <p className="text-md font-[500] text-gray-600 mt-4">
+            <p className="text-[20px] font-[500] text-gray-600 mt-4">
               Send Us A Tickets You Created
             </p>
           </div>
 
           {/* Card 3 */}
-          <div className="border rounded-2xl shadow-sm p-6 flex flex-col items-center text-center justify-center">
+          <div className="border rounded-2xl shadow-sm p-12 flex flex-col items-center text-center justify-center">
             {/* Icon */}
             <img
               src="/images/file-bookmark.svg"
@@ -672,14 +675,14 @@ const Home = () => {
               className="h-12 w-12"
             />
             {/* Title */}
-            <p className="text-md font-[500] text-gray-600 mt-4">
+            <p className="text-[20px] font-[500] text-gray-600 mt-4">
               Build Knowledge Base System
             </p>
           </div>
         </div>
       </div>
       {/* Newsletter Section */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-16 w-full max-w-[845px] md:max-h-[50px] max-h-[245px] bg-[#CB6686] border-4 border-white text-white flex flex-col md:flex-row items-center px-10 py-12 rounded-xl shadow-lg space-y-2 md:space-y-0 md:space-x-6 md:mt-2 mt-20">
+      <div className="absolute left-1/2 transform -translate-x-1/2 -translate-y-16 w-full max-w-[1000px] md:max-h-[140px] max-h-[245px] bg-[#CB6686] border-4 border-white text-white flex flex-col md:flex-row items-center px-10 py-12 rounded-xl shadow-lg space-y-2 md:space-y-0 md:space-x-6 md:mt-2 mt-20">
         <div className="flex flex-col text-center md:text-left">
           <h2 className="text-xl font-bold">SIGN UP TO OUR NEWS LETTER</h2>
           <p className="text-sm mt-1">

@@ -110,7 +110,7 @@ const Footer = () => {
       </div>
 
       {/* Horizontal Line */}
-      <hr className="my-10 border-gray-300 w-full md:w-1/3 md:ml-20 ml-0" />
+      <hr className="my-10 border-gray-300 w-full md:w-3/3 mr-0 ml-0" />
 
       {/* Final Rows */}
       <div className="text-sm text-white flex flex-col justify-between items-center md:flex-row md:items-center md:justify-between w-full px-20 mt-8">
