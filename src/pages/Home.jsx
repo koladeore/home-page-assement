@@ -168,7 +168,7 @@ const Home = () => {
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 w-[80%] sm:gap-8">
           {/* Card 1 */}
-          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start ">
+          <div className="border border-[#E0E2E6] rounded-[60px] p-8 bg-white text-start ">
             <h3 className="text-xl font-medium mb-2">Shared Hosting</h3>
             <p className="text-sm text-[#666D80] mb-4">
               Unbeatable speed. Shared hosting with top security. Low cost.
@@ -222,7 +222,7 @@ const Home = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start ">
+          <div className="border border-[#E0E2E6] rounded-[60px] p-8 bg-white text-start ">
             <h3 className="text-xl font-medium mb-2">Word-Press Hosting </h3>
             <p className="text-sm text-[#666D80] mb-4">
               Unbeatable speed. Word-Press hosting with top security. on budgets
@@ -276,7 +276,7 @@ const Home = () => {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start ">
+          <div className="border border-[#E0E2E6] rounded-[60px] p-8 bg-white text-start ">
             <h3 className="text-xl font-medium mb-2">VPS Hosting</h3>
             <p className="text-sm text-[#666D80] mb-4">
               High performance VPS Hosting with cloud flexibility and
@@ -643,7 +643,7 @@ const Home = () => {
       <div className="flex w-[95%] mx-auto justify-center relative ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:mt-0 mt-0 px-6 md:px-1 md:mb-32 mb-10">
           {/* Card 1 */}
-          <div className="border rounded-2xl shadow-sm p-12 flex flex-col items-center text-center justify-center">
+          <div className="border rounded-2xl p-12 flex flex-col items-center text-center justify-center">
             {/* Icon */}
             <img
               src="/images/message.svg"
@@ -657,7 +657,7 @@ const Home = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="border rounded-2xl shadow-sm p-12 flex flex-col items-center text-center justify-center">
+          <div className="border rounded-2xl p-12 flex flex-col items-center text-center justify-center">
             {/* Icon */}
             <img src="/images/mail.svg" alt="mail.svg" className="h-12 w-12" />
             {/* Title */}
@@ -667,7 +667,7 @@ const Home = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="border rounded-2xl shadow-sm p-12 flex flex-col items-center text-center justify-center">
+          <div className="border rounded-2xl p-12 flex flex-col items-center text-center justify-center">
             {/* Icon */}
             <img
               src="/images/file-bookmark.svg"
