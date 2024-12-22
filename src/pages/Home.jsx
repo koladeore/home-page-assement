@@ -71,7 +71,7 @@ const Home = () => {
       </div>
       {/* Cards Section */}
       <div className="flex items-center justify-center w-[80%] mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-8 w-full ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 w-full ">
           {/* Card 1 */}
           <div className="border border-[#E0E2E6] p-8  rounded-lg md:text-start text-center bg-[#F9FAFC]">
             <h3 className="md:text-[25px] text-md font-semibold mb-2">
@@ -166,9 +166,9 @@ const Home = () => {
       </div>
       {/* Pricing Cards Section */}
       <div className="flex justify-center items-center">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8 w-[80%] sm:gap-8">
           {/* Card 1 */}
-          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
+          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start ">
             <h3 className="text-xl font-medium mb-2">Shared Hosting</h3>
             <p className="text-sm text-[#666D80] mb-4">
               Unbeatable speed. Shared hosting with top security. Low cost.
@@ -222,7 +222,7 @@ const Home = () => {
             </div>
           </div>
           {/* Card 2 */}
-          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
+          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start ">
             <h3 className="text-xl font-medium mb-2">Word-Press Hosting </h3>
             <p className="text-sm text-[#666D80] mb-4">
               Unbeatable speed. Word-Press hosting with top security. on budgets
@@ -276,7 +276,7 @@ const Home = () => {
             </div>
           </div>
           {/* Card 3 */}
-          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start w-[300px]">
+          <div className="border border-[#E0E2E6] rounded-[60px] shadow-md p-8 bg-white text-start ">
             <h3 className="text-xl font-medium mb-2">VPS Hosting</h3>
             <p className="text-sm text-[#666D80] mb-4">
               High performance VPS Hosting with cloud flexibility and
@@ -360,18 +360,18 @@ const Home = () => {
             {/* Card 1 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-[25px] font-[600] mb-2 text-[#212325]">
+                <h3 className="md:text-[20px] text-[20px] font-[600] mb-2 text-[#212325]">
                   Register New Domain
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-12 h-12 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full md:w-8 md:h-8 w-8 h-8 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-6 h-6"
+                    className="md:w-4 md:h-4 w-3 h-3"
                   />
                 </div>
               </div>
-              <p className="text-[#98989A] text-[20px] mt-[-8px]">
+              <p className="text-[#98989A] md:text-[15px] text-[12px] mt-[-8px]">
                 Own your online space! Register your domain name for a
                 professional website.
               </p>
@@ -380,37 +380,37 @@ const Home = () => {
             {/* Card 2 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-[25px] font-[600] mb-2 text-[#212325]">
+                <h3 className="md:text-[20px] text-[20px] font-[600] mb-2 text-[#212325]">
                   Transfer Your Domain
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-12 h-12 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full md:w-8 md:h-8 w-8 h-8 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-6 h-6"
+                    className="md:w-4 md:h-4 w-3 h-3"
                   />
                 </div>
               </div>
-              <p className="text-[#98989A] lg:text-[19px] mt-[-8px]">
-                Upgrade Your Hosting, Extend Your Domain (Transfer<br /> Today!)
+              <p className="text-[#98989A] md:text-[15px] text-[12px]  mt-[-8px]">
+                Upgrade Your Hosting, Extend Your Domain (Transfer Today!)
               </p>
             </div>
 
             {/* Card 3 */}
             <div className="p-8 border border-[#E0E2E6] bg-[#F9FAFC] rounded-lg">
               <div className="flex mb-4 justify-between">
-                <h3 className="text-[25px] font-[600] mb-2 text-[#212325]">
+                <h3 className="md:text-[20px] text-[20px] font-[600] mb-2 text-[#212325]">
                   Cloud Technology
                 </h3>
-                <div className="bg-[#CB6686] rounded-full w-12 h-12 flex items-center justify-center">
+                <div className="bg-[#CB6686] rounded-full md:w-8 md:h-8 w-8 h-8 flex items-center justify-center">
                   <img
                     src="/images/arrowIcon.svg"
                     alt="Register Icon"
-                    className="w-6 h-6"
+                    className="md:w-4 md:h-4 w-3 h-3"
                   />
                 </div>
               </div>
-              <p className="text-[#98989A] text-[19px] mt-[-8px]">
+              <p className="text-[#98989A] md:text-[15px] text-[12px] mt-[-8px]">
                 Our Cloud computing allows your applications to be<br />shared
                 through our network over the Internet’s.
               </p>
@@ -447,13 +447,13 @@ const Home = () => {
               <img
                 src="/images/profile-one.svg"
                 alt="profile-one"
-                className="w-32 h-32 rounded-full object-cover"
+                className="md:w-20 md:h-20 w-20 h-20 rounded-full object-cover"
               />
-              <div className="flex-col mt-3">
-                <h3 className="text-[25px] font-semibold text-gray-400">
+              <div className="flex-col items-center justify-center">
+                <h3 className="md:text-[25px] text-[17px] font-semibold text-gray-400">
                   Abdulazeez Mubarak
                 </h3>
-                <div className="flex items-center text-[20px] text-[#666666] mt-1">
+                <div className="flex items-center md:text-[20px] text-[10px] text-[#666666]">
                   📍Lagos State, Nigeria
                 </div>
               </div>
@@ -475,7 +475,7 @@ const Home = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-400 text-center text-[25px] p-2">
+                <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
                   Their hosting is very <br /> affordable and their customer <br /> service is
                   the best.
                 </p>
@@ -489,13 +489,13 @@ const Home = () => {
               <img
                 src="/images/profile-two.svg"
                 alt="profile-two"
-                className="w-32 h-32 rounded-full object-cover"
+                className="md:w-20 md:h-20 w-20 h-20 rounded-full object-cover"
               />
-              <div className="flex-col mt-3">
-                <h3 className="text-[25px] font-semibold text-gray-400">
+              <div className="flex-col">
+                <h3 className="md:text-[25px] text-[17px] font-semibold text-gray-400">
                   Sayles Russell
                 </h3>
-                <div className="flex items-center text-[20px] text-[#666666]  mt-1">
+                <div className="flex items-center md:text-[20px] text-[10px] text-[#666666]  mt-1">
                   📍United State
                 </div>
               </div>
@@ -517,7 +517,7 @@ const Home = () => {
                     </svg>
                   ))}
                 </div>
-                <p className="text-gray-400 text-center text-[25px] p-2">
+                <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
                   I recently started using <br /> Lytehosting and so far, my <br />experience
                   has been positive
                 </p>
@@ -531,13 +531,13 @@ const Home = () => {
               <img
                 src="/images/profile-three.svg"
                 alt="profile-three"
-                className="w-32 h-32 rounded-full object-cover"
+                className="md:w-20 md:h-20 w-20 h-20 rounded-full object-cover"
               />
-              <div className="flex-col mt-3">
-                <h3 className="text-[25px] font-semibold text-gray-400">
+              <div className="flex-col">
+                <h3 className="md:text-[25px] text-[17px] font-semibold text-gray-400">
                   Code Naija Hub
                 </h3>
-                <div className="flex items-center text-[20px] text-[#666666] mt-1">
+                <div className="flex items-center md:text-[20px] text-[10px] text-[#666666] mt-1">
                   📍FCT, Abuja, Nigeria
                 </div>
               </div>
@@ -560,7 +560,7 @@ const Home = () => {
                   ))}
                 </div>
                 <div className="relative max-w-full text-center">
-                  <p className="text-gray-400 text-center text-[25px] p-2">
+                  <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
                     Trustworthy, one of the best <br /> reliable hosting company. Fast <br />
                     response time, with 24/7 no <br /> downtime. Good services. <br />I must
                     commend the company.
@@ -577,13 +577,13 @@ const Home = () => {
               <img
                 src="/images/profile-four.svg"
                 alt="profile-four"
-                className="w-32 h-32 rounded-full object-cover"
+                className="md:w-20 md:h-20 w-20 h-20 rounded-full object-cover"
               />
               <div className="flex-col">
-                <h3 className="text-[25px] font-semibold text-gray-400">
+                <h3 className="md:text-[25px] text-[17px] font-semibold text-gray-400">
                   Victor Edet
                 </h3>
-                <div className="flex items-center text-[20px] text-[#666666] mt-1">
+                <div className="flex items-center md:text-[20px] text-[10px] text-[#666666] mt-1">
                   📍Jos State, Nigeria
                 </div>
               </div>
@@ -606,7 +606,7 @@ const Home = () => {
                   ))}
                 </div>
                 <div className="relative max-w-full text-center">
-                  <p className="text-gray-400 text-center text-[25px] p-2">
+                  <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
                     These guys are excellent.<br /> Excellent in customer service. I<br />
                     have been using other host<br /> until i found them & they have <br /> been
                     on top of their game.
