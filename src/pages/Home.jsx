@@ -1,5 +1,6 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Button from "../components/Button";
 
 const Home = () => {
   return (
@@ -52,12 +53,7 @@ const Home = () => {
         />
       </div>
       {/* About us button */}
-      <div className="flex items-center justify-center md:mt-[-350px] mt-[-180px] ml-12 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
-          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">About Us</h1>
-          <div className="text-2xl">🕵</div>
-        </div>
-      </div>
+      <Button text="About Us" icon="🕵" className="md:mt-[-350px] mt-[-180px] ml-12"/> 
       {/* Why Choose Lyte-Hosting text */}
       <div className="text-center mt-4 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
@@ -119,14 +115,7 @@ const Home = () => {
         </div>
       </div>
       {/* Our pricing button */}
-      <div className="flex items-center justify-center mt-10 md:ml-10 ml-0 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
-          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">
-            Our Pricing
-          </h1>
-          <div className="text-2xl">💰</div>
-        </div>
-      </div>
+      <Button text="Our Pricing" icon="💰" className="mt-10 md:ml-10 ml-0"/> 
       {/* Pricing Section Title */}
       <div className="text-center mt-6 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
@@ -331,14 +320,7 @@ const Home = () => {
         </div>
       </div>
       {/* Our features button */}
-      <div className="flex items-center justify-center mt-8 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
-          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">
-            Our Features
-          </h1>
-          <div className="text-2xl">🧑🏻‍💻</div>
-        </div>
-      </div>
+      <Button text="Our Features" icon="🧑🏻‍💻" className="mt-8"/> 
       {/* Pricing Section Title */}
       <div className="text-center mt-4 md:mt-6 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
@@ -353,7 +335,6 @@ const Home = () => {
         </p>
       </div>
       {/* Border Section with Cards */}
-      {/* w-[85%] mx-auto justify-center */}
       <div className="flex w-[95%] mx-auto justify-center">
         <div className="border border-[#E0E2E6] rounded-lg p-4 mt-6 bg-white flex items-center justify-center">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-2">
@@ -419,14 +400,7 @@ const Home = () => {
         </div>
       </div>
       {/* Our Reviews button */}
-      <div className="flex items-center justify-center mt-8 cursor-pointer">
-        <div className="border border-[#E0E2E6] rounded-full p-2 flex mx-auto justify-center">
-          <h1 className="text-gray-500 ml-1 text-2xl font-[700]">
-            Our Reviews
-          </h1>
-          <div className="text-2xl">⭐</div>
-        </div>
-      </div>
+      <Button text="Our Reviews" icon="⭐" className="mt-8"/> 
       {/* Client Testimonials Section */}
       <div className="bg-[url('/images/map.png')] bg-contain bg-center py-16 shadow-3xl">
         {/* Section Title */}
