@@ -140,7 +140,7 @@ const Home = () => {
         </p>
       </div>
       {/* Change Currency Section */}
-      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-[120px] mr-0">
+      <div className="flex items-center md:justify-end justify-center mt-6 md:mr-[135px] mr-0">
         <button className="flex items-center border border-[#E0E2E6] rounded-full px-4 py-2 shadow-sm hover:bg-[#CB6686] hover:text-white transition duration-300">
           <span className="hover:text-white font-[400] text-sm">
             Change Currency
