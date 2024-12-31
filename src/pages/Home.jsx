@@ -16,11 +16,14 @@ const Home = () => {
         </div>
         {/* New Text Section */}
         <div className="text-center mt-4 md:text-[100px] lead text-3xl font-extrabold text-[#000000]">
-          <p className=" md:leading-[90px]">
-            Welcome <span className="text-[#ffd300]">to</span>{" "}
-            <span className="text-[#CB6686]">Your New</span> <br/>
-            Digital Home!
-          </p>
+          <h1 className="md:leading-[90px]">
+            <span>Welcome </span>
+            <span className="inline-block bg-gradient-to-r from-[#FFDA68] via-[#CB6686] to-[#CB6686] text-transparent bg-clip-text">
+              to Your New
+            </span>
+            <br />
+            <span>Digital Home!</span>
+          </h1>
         </div>
       </div>
 
@@ -53,7 +56,11 @@ const Home = () => {
         />
       </div>
       {/* About us button */}
-      <Button text="About Us" icon="🕵" className="md:mt-[-350px] mt-[-180px] ml-12"/> 
+      <Button
+        text="About Us"
+        icon="🕵"
+        className="md:mt-[-350px] mt-[-180px] ml-12"
+      />
       {/* Why Choose Lyte-Hosting text */}
       <div className="text-center mt-4 md:text-[60px] text-2xl font-semibold text-[#000000]">
         <h2>
@@ -62,7 +69,9 @@ const Home = () => {
       </div>
       {/* High Performance Servers text*/}
       <div className="text-center mt-6 text-[20px] font-[400] text-gray-400">
-        <h3 className="">We provide high performance dedicated servers with cloud</h3>
+        <h3 className="">
+          We provide high performance dedicated servers with cloud
+        </h3>
         <h3>flexibility and scalability.</h3>
       </div>
       {/* Cards Section */}
@@ -115,9 +124,9 @@ const Home = () => {
         </div>
       </div>
       {/* Our pricing button */}
-      <Button text="Our Pricing" icon="💰" className="mt-10 md:ml-10 ml-0"/> 
+      <Button text="Our Pricing" icon="💰" className="mt-10 md:ml-10 ml-0" />
       {/* Pricing Section Title */}
-      <div className="text-center mt-6 md:text-[60px] text-2xl font-semibold text-[#000000]">
+      <div className="text-center mt-6 md:text-[60px] text-2xl font-semibold text-[#000000] md:leading-[50px] leading-[10px]">
         <h2>
           Our Web <span className="text-[#CB6686]">Hosting </span> Plans &
           Pricing
@@ -320,9 +329,9 @@ const Home = () => {
         </div>
       </div>
       {/* Our features button */}
-      <Button text="Our Features" icon="🧑🏻‍💻" className="mt-8"/> 
+      <Button text="Our Features" icon="🧑🏻‍💻" className="mt-8" />
       {/* Pricing Section Title */}
-      <div className="text-center mt-4 md:mt-6 md:text-[60px] text-2xl font-semibold text-[#000000]">
+      <div className="text-center mt-4 md:mt-6 md:text-[60px] text-2xl font-semibold text-[#000000] md:leading-[60px] leading-[10px]">
         <h2>
           Our Premium <span className="text-[#CB6686]">Hosting </span> Features
         </h2>
@@ -392,15 +401,16 @@ const Home = () => {
                 </div>
               </div>
               <p className="text-[#98989A] md:text-[15px] text-[12px] mt-[-8px]">
-                Our Cloud computing allows your applications to be<br />shared
-                through our network over the Internet’s.
+                Our Cloud computing allows your applications to be
+                <br />
+                shared through our network over the Internet’s.
               </p>
             </div>
           </div>
         </div>
       </div>
       {/* Our Reviews button */}
-      <Button text="Our Reviews" icon="⭐" className="mt-8"/> 
+      <Button text="Our Reviews" icon="⭐" className="mt-8" />
       {/* Client Testimonials Section */}
       <div className="bg-[url('/images/map.png')] bg-contain bg-center py-16 shadow-3xl">
         {/* Section Title */}
@@ -450,8 +460,8 @@ const Home = () => {
                   ))}
                 </div>
                 <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
-                  Their hosting is very <br /> affordable and their customer <br /> service is
-                  the best.
+                  Their hosting is very <br /> affordable and their customer{" "}
+                  <br /> service is the best.
                 </p>
               </div>
             </div>
@@ -492,8 +502,9 @@ const Home = () => {
                   ))}
                 </div>
                 <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
-                  I recently started using <br /> Lytehosting and so far, my <br />experience
-                  has been positive
+                  I recently started using <br /> Lytehosting and so far, my{" "}
+                  <br />
+                  experience has been positive
                 </p>
               </div>
             </div>
@@ -535,9 +546,10 @@ const Home = () => {
                 </div>
                 <div className="relative max-w-full text-center">
                   <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
-                    Trustworthy, one of the best <br /> reliable hosting company. Fast <br />
-                    response time, with 24/7 no <br /> downtime. Good services. <br />I must
-                    commend the company.
+                    Trustworthy, one of the best <br /> reliable hosting
+                    company. Fast <br />
+                    response time, with 24/7 no <br /> downtime. Good services.{" "}
+                    <br />I must commend the company.
                   </p>
                   <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
                 </div>
@@ -581,9 +593,11 @@ const Home = () => {
                 </div>
                 <div className="relative max-w-full text-center">
                   <p className="text-gray-400 text-center md:text-[25px] text-[12px] p-2">
-                    These guys are excellent.<br /> Excellent in customer service. I<br />
-                    have been using other host<br /> until i found them & they have <br /> been
-                    on top of their game.
+                    These guys are excellent.
+                    <br /> Excellent in customer service. I<br />
+                    have been using other host
+                    <br /> until i found them & they have <br /> been on top of
+                    their game.
                   </p>
                   <div className="absolute bottom-0 left-0 w-full h-[50px] bg-gradient-to-t from-white to-transparent pointer-events-none"></div>
                 </div>
