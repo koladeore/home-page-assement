@@ -38,21 +38,21 @@ const NavBar = () => {
     <div>
       {/* Desktop Navigation */}
       <div className="hidden md:block">
-        <div className="flex justify-center font-redhat mt-4">
+        <div className="flex justify-center font-redhat mt-6">
           <nav className="border-2 border-[#E0E2E6] rounded-full shadow-sm items-center justify-center w-[80%] p-1">
             <div className="container mx-auto flex  p-2 sm:justify-between">
               {/* Logo */}
               <img
                 src="/images/logo.svg"
                 alt="Logo"
-                className="w-10 h-10 ml-1"
+                className="w-12 h-12 ml-1"
               />
-              <ul className="hidden md:flex items-center gap-4 lg:gap-8 xl:gap-16 text-[#121212] font-[400] text-xs lg:text-lg">
+              <ul className="hidden md:flex items-center gap-4 lg:gap-8 xl:gap-12 text-[#121212] font-[400] text-xs lg:text-lg">
                 <li className="hover:text-[#CB6686]">
                   <a href="#">Home</a>
                 </li>
                 <li className="flex items-center hover:text-[#CB6686]">
-                  <a href="#">Our Services</a>
+                  <a href="#" className="pr-2">Our Services</a>
                   <svg
                     className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +69,7 @@ const NavBar = () => {
                   </svg>
                 </li>
                 <li className="flex items-center hover:text-[#CB6686]">
-                  <a href="#">Domains</a>
+                  <a href="#" className="pr-2">Domains</a>
                   <svg
                     className="w-4 h-4"
                     xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@ const NavBar = () => {
                   </svg>
                 </li>
                 <li className="flex items-center hover:text-[#CB6686]">
-                  <a href="#">Pages</a>
+                  <a href="#" className="pr-2">Pages</a>
                   <svg
                     className="w-4 h-4 cursor-pointer"
                     xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +102,7 @@ const NavBar = () => {
                     />
                   </svg>
                 </li>
-
+                <img src="/images/Nav-frame.svg"  className="w-10 h-10" />
               </ul>
               
               <ul className="hidden md:flex items-center gap-4 lg:gap-10 text-[#121212] font-[400] text-sm">
